@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    background: rgb(221, 149, 221);
+
+}
+.logo img{
+    width: 33%;
+    border-radius: 80px;
+    border: 10px solid white;
+
+}
+
+.navbar-right {
+    width: 50%;
+    background: rgb(170, 147, 147);
+    text-align: right;
+}
+.logo{
+    width: 20%;
+    display: flex;/*we are using flex because with this justify content doesn't works*/
+    justify-content: center;/*make it in the center of the area*/
+    align-items: center;/*given equal margins from top and center*/
+    background: #f5cbcb;
+}
+.nav-list{
+width: 50%;
+display: flex;
+list-style: none;
+text-decoration: none;
+background: #8c958b;
+}
+.nav-list li{
+    display: flex;
+    padding: 26px 30px;
+    justify-content: center;
+    align-items: center;
+    background: #65648f;
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    background: #96e6c9;
+    
+}
+.background{
+
+}
+#search{
+    padding: 10px;
+    font-size:10px ;
+    border:10px ;
+    border-radius: 10px;
+    background: #96e6c9;
+}
